@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function () {
         inputPass.value === motDePasse
       ) {
         affichageImg.innerHTML =
-          "<img src='https://monoprixfranchise.lu/cdn/shop/files/images_2F2775339-1_grande.jpg?v=1728607997' width='300' height='300'/> <br> Bravo tu as gagné un sandwich au thon ! ";
+          "<img src='https://monoprixfranchise.lu/cdn/shop/files/images_2F2775339-1_grande.jpg?v=1728607997' width='300' height='300'/> <br> Bravo tu as gagné un sandwich sodebo au thon ! ";
       } else {
         affichageImg.innerHTML =
           "<span style='color:red'>Mot de passe incorrect.<br> Petit indice, c'est en rapport avec JS</span>";

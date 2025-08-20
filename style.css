@@ -75,3 +75,57 @@ input{
     height: 5vh;
     text-align: center;
 }
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .paEx {
+        width: 60%;
+        font-size: 16px;
+    }
+    .container {
+        width: 90vw;
+    }
+    .btnValidate, .btnLancer {
+        width: 30vw;
+        height: 6vh;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 600px) {
+    header {
+        height: auto;
+        padding: 10px 0;
+    }
+    h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+    .explication {
+        flex-direction: column;
+        height: auto;
+        margin-top: 10px;
+    }
+    .paEx {
+        width: 90%;
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .container {
+        margin-top: 10px;
+        gap: 10px;
+        width: 98vw;
+    }
+    .btnValidate, .btnLancer {
+        width: 80vw;
+        height: 7vh;
+        font-size: 15px;
+    }
+    input {
+        width: 80vw;
+        font-size: 15px;
+    }
+    body {
+        font-size: 15px;
+    }
+}
